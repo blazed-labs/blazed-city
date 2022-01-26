@@ -1,6 +1,6 @@
 # Swell city
 
-from lib.world import City
+from blz.world import City
 
 def main(id):
     city = City("Swell", id)
