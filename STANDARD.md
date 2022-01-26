@@ -7,7 +7,7 @@ Published by: Blazed Publishing BD. Blazed Systems BD.
 The Blazed City standard outlines the method by which a city may be provisioned and constructed, how authority may be delegated, and finally how order may be established.
 
 ## It all begins with "We the People"
-Before a city may even come to be, many principal controllers (ie. keys to power) must come together in union to realize this grand goal. The constitution is vital to the establishment of a city or governing principality, the constitution essentially invokes the authority of the aforementioned "keys to power" and assigns (ie. vets) the authority in/amonst the entity/entities defined by the constitution as the "government" or "governing body".
+Before a city may even come to be, many principal controllers (ie. keys to power) must come together in union to realize this grand goal. The constitution is vital to the establishment of a city or governing principality, the constitution essentially invokes the authority of the aforementioned "keys to power" and assigns (ie. vests) the authority in/amonst the entity/entities defined by the constitution as the "government" or "governing body".
 Beyond this, the document also outlines the various rules and procedures to be encforced and promoted by/within the City.
 
 ## It all ends with a signature
@@ -30,4 +30,3 @@ Spaces are descrete portions of land, which initially are empty and/or subject t
 
 ## Systems
 A System is like a Item, its a group of methods which act in an isolated state manner. But unlike an item, a system contains many items. For example, we might use a "System" to implement the functionality of a "Vehicle". Thus, we can combine all methods (or method calls/references), variables, and/or items.
-
