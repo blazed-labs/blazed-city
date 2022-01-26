@@ -1,7 +1,7 @@
-# Ferringwood city
+# Ferringwood Town
 
-from blz.world import City
+from blz.city import Town
 
 def main(id):
-    city = City("Ferringwood", id)
-    return city
+    town = Town("Ferringwood", id)
+    return town

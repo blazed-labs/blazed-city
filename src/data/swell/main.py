@@ -1,7 +1,7 @@
 # Swell city
 
-from blz.world import City
+from blz.city import Town
 
 def main(id):
-    city = City("Swell", id)
-    return city
+    town = Town("Swell", id)
+    return town
