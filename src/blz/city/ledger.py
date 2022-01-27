@@ -6,7 +6,7 @@
         - self
         - city_name = Name of city (should be unique, if operating in a "universe" and/or a "world")
         - accounts = list of bank accounts in the city
-        - transactions = list of transactions waiting to be resolved
+        - transactions = list of transactions waiting to be resolved. Once resolved, they are moved to sender & receiver's local account histories
 
 """
 
