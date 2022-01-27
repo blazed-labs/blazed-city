@@ -19,3 +19,7 @@ In [src/main.py](/src/main.py), you'll find the main program entry point. Here, 
 Help, contribute, use this code, use this project... Etc...
 Yes. This project is licensed MIT, open source. It is maintained by the RUFF Foundation.
 Thank you to Blazed Labs LLC, The RUFF Foundation, and all contributors!
+
+# Credits
+- Star Dom
+- [Tyler Ruff](https://github.com/tyler-ruff)
