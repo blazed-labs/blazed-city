@@ -19,7 +19,7 @@
 """
 
 class Account:
-    def __init__(self, city, thash, routing, account, owner, balance = 0):
+    def __init__(self, city, thash, routing, account, owner, balance = 0, history = []):
         self.city = city
         self.thash = thash
         self.routing = routing

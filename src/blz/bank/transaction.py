@@ -5,7 +5,7 @@
         - self
         - send_address = address of sending account
         - recipient_address = address pf receiving account
-        - comment = small description of the transaction's purpose
+        - comment = small description of the transaction's purpose (ex. purchase of item x)
         - amount = amount of currency exchanged
         - timestamp = UNIX timestamp of the time when transaction is sent [default: current timestamp]
 """

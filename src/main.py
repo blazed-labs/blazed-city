@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
 """
-Blazed City
-> Main entry point <
+    Blazed City
+    Demo implementation of the Blazed City standard in
+    Python. In this demo, three towns are provisioned
+    with some default starter data (and keys). For
+    security purposes, only the public keys are published.
+    If you would like to compile and run this, you will have to
+    regenerate they public and private keys, or use some other keys
+    you have lying around. RSA 2048 (public [.pub], private, .ppk)
+    (c)2022 ALL RIGHTS RESERVED. MIT LICENSED.
+    BLAZED LABS LLC.; BLAZED SYSTEMS BD. BLAZED PUBLISHING BD.
 """
 
 __author__ = "Blazed Labs LLC"
@@ -17,8 +25,15 @@ def main(args):
     print(args)
 
     # The entire implimentation of a City depends upon a context
+    town_list = ["swell", "magnolia", "ferringwood"]
+    i = 1
+    towns = []
+    for town_name in town_list:
+        town.append(i, town(town_name))
+        i += 1
     city = context("blazed")
-
+    city.set_towns(towns)
+    
 
 if __name__ == "__main__":
     """ This is executed when run from the command line """
