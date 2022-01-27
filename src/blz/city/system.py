@@ -2,6 +2,11 @@
     A system is like an item, wherein it has privileges, data, and functionality.
     However, unlike an item it is both completely free & mobile, and it may require 
     special licensing to operate. 
+
+    ::PARAMS::
+        - self
+        - data = data contained within the system
+        - methods = methods to be available to the system
 """
 
 class System:

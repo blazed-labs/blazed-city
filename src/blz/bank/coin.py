@@ -1,5 +1,5 @@
 """
-    A coin is a NFT (non fungable token).
+    A coin is a NFT (non fungable token). It represents a centrally issued security.
 
     ::PARAMS::
         - self

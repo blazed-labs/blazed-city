@@ -31,6 +31,9 @@ class Town:
     def set_banks(self, banks = []):
         self.banks = banks
 
+    def add_bank(self, bank):
+        self.banks.append(bank)
+
     def set_plots(self, plots = []):
         self.plots = plots
     

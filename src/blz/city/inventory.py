@@ -1,6 +1,10 @@
 """
     An inventory is a collection of items which can be inside a plot (building)
     or can be exist outside or in other objects.
+
+    ::PARAMS::
+        - self
+        - items = list of items contained within the inventory
 """
 
 class Inventory:

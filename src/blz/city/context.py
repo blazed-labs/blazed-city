@@ -31,5 +31,12 @@ class Context:
     def set_ledger(self, ledger):
         self.ledger = ledger
     
+    def add_transaction(self, transaction):
+        self.ledger.add_transaction(transaction)
+
+    def add_account(self, account):
+        self.ledger.add_account(account)
+
+        
 
             

@@ -2,6 +2,10 @@
     The Item is a dynamic (movable) data storage element.
     A Item is contained within spaces (as "data") or within
     the town, or inventories. 
+
+    ::PARAMS::
+        - self
+        - data = data contained within the item
 """
 
 class Item:

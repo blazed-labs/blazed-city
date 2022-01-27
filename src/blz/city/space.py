@@ -2,6 +2,12 @@
     The Space is a static data storage element.
     A space is found by visiting a public building or 
     establishment, made by binding many spaces together.
+
+    ::PARAMS::
+        - self
+        - x = location on the x axis
+        - y = location on the y axis
+        - data = data (or item/inventory) contained within the space
 """
 class Space:
     def __init__(self, x, y, data = ''):

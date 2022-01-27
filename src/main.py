@@ -5,7 +5,7 @@ Blazed City
 """
 
 __author__ = "Blazed Labs LLC"
-__version__ = "0.1.0"
+__version__ = "0.3.0"
 __license__ = "MIT"
 
 import argparse

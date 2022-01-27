@@ -27,3 +27,5 @@ class Bank:
         hash_str = self.account_index + " "
         account_addr = hashlib.md5(hash_str.encode())
         return account(self.city, self.thash, self.routing, owner, inital_balance)
+
+    
