@@ -9,11 +9,11 @@ class Space:
         self.y = y
         self.data = data
     
-    def set_data(new_data):
+    def set_data(self, new_data):
         self.data = new_data
     
-    def add_data(new_data):
+    def add_data(self, new_data):
         self.data += new_data
     
-    def get_data():
+    def get_data(self):
         return self.data

@@ -6,6 +6,18 @@
     together and given endpoint url's, and attached to deeds owned by business agents.
 """
 class Town:
-    def __init__(self, id, name):
+    def __init__(self, id, name, plots = []):
         self.id = id
         self.name = name
+        self.set_plots(plots)
+
+    def set_name(self, name):
+        self.name = name
+
+    def set_plots(self, plots = []):
+        self.plots = plots
+    
+    def add_plot(self, plot):
+        self.plots.append(plot)
+
+    

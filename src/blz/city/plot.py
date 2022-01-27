@@ -7,3 +7,6 @@ class Plot:
         self.city = city
         self.town = town
         self.spaces = spaces
+
+    def add_space(self, space):
+        self.spaces.append(space)
