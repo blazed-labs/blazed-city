@@ -30,3 +30,6 @@ Spaces are descrete portions of land, which initially are empty and/or subject t
 
 ## Systems
 A System is like a Item, its a group of methods which act in an isolated state manner. But unlike an item, a system contains many items. For example, we might use a "System" to implement the functionality of a "Vehicle". Thus, we can combine all methods (or method calls/references), variables, and/or items.
+
+## Bank
+A bank is a centralized control agent which oversees various financial exchanges, holdings, and securities. A bank is certified by its outlying Town, City, and World.

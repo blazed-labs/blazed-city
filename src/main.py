@@ -16,6 +16,9 @@ def main(args):
     print("Welcome to the World...")
     print(args)
 
+    # The entire implimentation of a City depends upon a context
+    city = context("blazed")
+
 
 if __name__ == "__main__":
     """ This is executed when run from the command line """

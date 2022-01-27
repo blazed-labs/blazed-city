@@ -13,4 +13,8 @@ class Item:
     
     def add_data(self, data):
         self.data += data
+
+    def get_data(self):
+        return self.data
+
     

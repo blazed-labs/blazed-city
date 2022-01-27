@@ -1,10 +1,18 @@
 """
     A ledger records transactions, and at any given time,
     holds the current "state" of an economy.
+    
+    ::PARAMS::
+        - self
+        - city_name = Name of city (should be unique, if operating in a "universe" and/or a "world")
+        - accounts = list of bank accounts in the city
+        - transactions = list of transactions waiting to be resolved
+
 """
 
 class Ledger:
-    def __init__(self, accounts = [], transactions = []):
+    def __init__(self, city_name, accounts = [], transactions = []):
+        self.city = city_name
         self.set_accounts(accounts)
         self.set_transactions(transactions)
 
