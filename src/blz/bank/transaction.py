@@ -21,6 +21,8 @@ class Transaction:
         self.amount = amount
         self.timestamp = timestamp
         self.set_signature(self)
+    
+    ## Signature
 
     def set_signature(self):
         hash_str = self.from_addr + "**" + self.to_addr + "**" + self.timestamp + "**" + self.amount

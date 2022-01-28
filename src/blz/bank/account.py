@@ -16,17 +16,19 @@
         - account = account number (md5 hashed value of issuing bank's assigned account_index)
         - owner = hash of the standing account owner
         - balance = standing account balance (in coins) [default: 0]
+        - transactions = list of authenticated transactions [default [] ]
 """
 
 class Account:
-    def __init__(self, city, thash, routing, account, owner, balance = 0, history = []):
+    def __init__(self, city, thash, routing, account, owner, balance = 0, transactions = []):
         self.city = city
         self.thash = thash
         self.routing = routing
         self.account = account
         self.set_owner(self, owner)
         self.balance = balance
-
+        self.set_transactions(transactions)
+    
     def set_owner(self, owner):
         self.owner = owner
 
@@ -35,6 +37,16 @@ class Account:
     
     def get_address(self):
         return self.thash + ":" + self.routing + ":" + self.account
+
+    ## Transactions (authenticated)
+
+    def set_transactions(self, transactions = []):
+        self.transactions = transactions
+
+    def add_transaction(self, transaction):
+        self.transactions.append(transaction)
+
+    ## Deposit
 
     def deposit_coins(self, coints = []):
         for coin in coins:
@@ -49,6 +61,7 @@ class Account:
         # and submit it to City Ledger (CL)
         return True
 
+    ## Withdraw
 
     def withdraw_coins(self, amount = 0):
         status = NULL

@@ -31,8 +31,8 @@ def main(args):
     for town_name in town_list:
         town.append(i, town(town_name))
         i += 1
-    city = context("blazed")
-    city.set_towns(towns)
+    city = context(self, "blazed", "blazed.world")
+    city.set_towns(self, towns)
     
 
 if __name__ == "__main__":

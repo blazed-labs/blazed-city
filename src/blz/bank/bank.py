@@ -22,6 +22,8 @@ class Bank:
         self.routing = routing
         self.account_index = account_index
     
+    ## Accounts
+    
     def new_account(self, owner, inital_balance = 0):
         self.account_index += 1
         hash_str = self.account_index + " "

@@ -5,15 +5,29 @@
 
     ::PARAMS::
         - self
-        - x = location on the x axis
-        - y = location on the y axis
         - data = data (or item/inventory) contained within the space
+        - config = list of config elements pertaining to the local space
 """
 class Space:
-    def __init__(self, x, y, data = ''):
-        self.x = x
-        self.y = y
+    def __init__(self, data = '', config = []):
+        self.config = config
         self.data = data
+
+    ## Config
+
+    def set_config(self, config = []):
+        self.config = config
+    
+    def add_config(self, config_item):
+        self.config.append(config_item)
+    
+    def get_config(self, i = False):
+        if(isinstance(i, int == True)):
+            return self.config[i]
+        else:
+            return self.config
+
+    ## Data
     
     def set_data(self, new_data):
         self.data = new_data
