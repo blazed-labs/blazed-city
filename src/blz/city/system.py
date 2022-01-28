@@ -5,14 +5,14 @@
 
     ::PARAMS::
         - self
-        - data = data contained within the system
-        - methods = methods to be available to the system
+        - data = data contained within the system [ default '' ]
 """
 
 class System:
-    def __init__(self, data = '', methods = []):
+    def __init__(self, data = ''):
         self.set_data(data)
-        self.set_methods(methods)
+
+    ## Data
     
     def set_data(self, data = ''):
         self.data = data
@@ -20,8 +20,3 @@ class System:
     def add_data(self, data):
         self.data += data
     
-    def set_methods(self, methods = []):
-        self.methods = methods
-
-    def add_method(self, method):
-        self.methods.append(method)
